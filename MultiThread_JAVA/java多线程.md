@@ -77,7 +77,7 @@ java中的每一个对象都可以作为锁，具体表现形式为下面三种�
 
 #### 1 - 等待/通知机制
 
-![]()
+![](https://raw.githubusercontent.com/BARKTEGH/MarkDownPhotos/master/multiThread/TIM%E6%88%AA%E5%9B%BE20181122193036.png)
 
 等待/通知机制，是指一个线程A调用了对象O的wait()方法进入等待状态，而另一个线程B
 调用了对象O的notify()或者notifyAll()方法，线程A收到通知后从对象O的wait()方法返回，进而
